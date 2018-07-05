@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mypod
+spec:
+  containers:
+       - name: tomcat1 
+         image: tomcat 
+       - name: nginx1
+         image: nginx 
+
